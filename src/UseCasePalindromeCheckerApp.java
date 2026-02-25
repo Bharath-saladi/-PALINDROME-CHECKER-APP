@@ -8,6 +8,7 @@ public class UseCasePalindromeCheckerApp {
             reversed = reversed + input.charAt(i);
         }
 
+
         if (input.equals(reversed)) {
             System.out.println(input + " is a Palindrome");
         } else {
